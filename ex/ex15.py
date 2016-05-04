@@ -1,5 +1,6 @@
 # exercise 15 reading files
 # system-specific import - argv command line arguments
+# sys is a package. this gets the argv feature from package.
 from sys import argv
 
 # argv is a list expected to contain 2 values
@@ -31,3 +32,6 @@ file_again = raw_input("> ")
 txt_again = open(file_again)
 
 print txt_again.read()
+
+txt.close()
+txt_again.close()
