@@ -33,3 +33,12 @@ target.write("\n")
 
 print "And finally, we close it."
 target.close()
+
+
+# notes
+# close = closes the file
+# read - Reads the contents of the file. You can assign
+#        the result to a variable
+# readline - Reads just one line of a text file
+# truncate - Empties the file. Careful if it's not version controlled.
+# write('stuff') - Writes "stuff" to the file
