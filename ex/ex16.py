@@ -31,9 +31,15 @@ target.write("\n")
 target.write(line3)
 target.write("\n")
 
-print "And finally, we close it."
 target.close()
 
+# read the file you just wrote to
+target = open(filename, 'r')
+print target.read()
+
+
+print "And finally, we close it."
+target.close()
 
 # notes
 # close = closes the file
